@@ -1,11 +1,15 @@
 {
   "name": "javascript-strings-lab",
   "version": "0.1.0",
-  "description": "JavaScript Strings Code-along for Learn.co",
+  "description": "JavaScript Scope Chain Code-along for Learn.co",
   "main": "index.js",
+  "script": {
+      "postinstall": "gem install learn-co",
+      "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/learn-co-curriculum/javascript-strings-lab.git"
+    "url": "git+ssh://git@github.com/learn-co-curriculum/js-principles-scope-chain-code-along-cb-000.git"
   },
   "keywords": [
     "learn",
